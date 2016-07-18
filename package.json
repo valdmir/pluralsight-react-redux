@@ -1,16 +1,16 @@
 {
-  "name": "react-redux",
+  "name": "pluralsight-react-redux",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prestart":"babel-node tools/startMessage.js",
+    "prestart": "babel-node tools/startMessage.js",
     "start": "npm-run-all --parallel open:src lint:watch test:watch",
     "open:src": "babel-node tools/srcServer.js",
     "lint": "node_modules/.bin/esw webpack.config.* src tools",
-    "lint:watch":"npm run lint -- --watch",
+    "lint:watch": "npm run lint -- --watch",
     "test": "mocha --reporter progress tools/testSetup.js \"src/**/*.test.js\"",
-    "test:watch":"npm run test -- --watch"
+    "test:watch": "npm run test -- --watch"
   },
   "author": "valdmir",
   "license": "ISC",
@@ -20,6 +20,7 @@
     "jquery": "^3.1.0",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
+    "react-redux": "^4.4.5",
     "react-router": "^2.5.2",
     "react-router-redux": "^4.0.5",
     "redux": "^3.5.2",
