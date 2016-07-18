@@ -6,7 +6,7 @@ import {Router, browserHistory} from 'react-router';
 import routes from './routes';
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import './styles/app.css'; //Webpack can import css files too!
+import './styles/style.css'; //Webpack can import css files too!
 
 render(
   <Router history={browserHistory} routes={routes} />,
