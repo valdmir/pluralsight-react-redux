@@ -1,3 +1,4 @@
+/*eslint-disable import/default*/
 // console.log("hi!");
 import 'babel-polyfill';
 import React from 'react';

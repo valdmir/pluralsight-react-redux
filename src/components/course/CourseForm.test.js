@@ -3,10 +3,10 @@ import React from 'react';
 import TestUtils from 'react-addons-test-utils';
 import CourseForm from './CourseForm';
 
-function setup() {
+function setup(saving) {
   let props = {
     course:{}
-    ,saving:false
+    ,saving:saving
     ,errors:{}
     ,onSave: () => {}
     ,onChange: () => {}
